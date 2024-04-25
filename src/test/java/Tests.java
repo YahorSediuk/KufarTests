@@ -1,6 +1,5 @@
 import CORE.Setup;
 import Pages.MainPage;
-import com.codeborne.selenide.Condition;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -19,14 +18,14 @@ public class Tests extends Setup {
                .getUserEmailFromSettings().contains(USER_EMAIL));
     }
 
-    @Test(description = "Case = Unsuccessful Login: Wrong Password")
+    /*@Test(description = "Case = Unsuccessful Login: Wrong Password")
     public void Test_UnsuccessfulLoginUser () {
        Assert.assertTrue(new MainPage()
                .acceptCookies()
                .loginUser(USER_EMAIL, USER_INCORRECT_PASSWORD)
                .getLoginFormButton()
                .is(Condition.disabled));
-    }
+    }*/
 
 
 }

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1fd7dbd-0aed-436a-bef0-da58111378ce" name="Changes" comment="2 tests added">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2fYBH1hYAVGpgqiWMO8DYlJ9ULz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +40,9 @@
     "Maven.Kufar [io.qameta.allure:allure-maven:2.10.0:serve].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Tests.Test1.executor": "Run",
+    "TestNG.Tests.Test_SuccessfulLoginUser (1).executor": "Run",
     "TestNG.Tests.Test_SuccessfulLoginUser.executor": "Run",
     "TestNG.Tests.Test_UnsuccessfulLoginUser.executor": "Run",
     "TestNG.Tests.executor": "Run",
@@ -62,7 +65,7 @@
       <recent name="C:\Users\teste\IdeaProjects\Kufar\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Tests.Test_SuccessfulLoginUser">
+  <component name="RunManager" selected="TestNG.Tests.Test_SuccessfulLoginUser (1)">
     <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Kufar" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,6 +82,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.Test_SuccessfulLoginUser (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KufarTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="Test_SuccessfulLoginUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tests.Test_SuccessfulLoginUser (1)" />
         <item itemvalue="TestNG.Tests.Test_SuccessfulLoginUser" />
         <item itemvalue="TestNG.Tests.Test_UnsuccessfulLoginUser" />
         <item itemvalue="TestNG.Tests" />
