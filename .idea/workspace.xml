@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1fd7dbd-0aed-436a-bef0-da58111378ce" name="Changes" comment="Classes Added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AccountPage.java" afterDir="false" />
+    <list default="true" id="c1fd7dbd-0aed-436a-bef0-da58111378ce" name="Changes" comment="2 tests added">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +35,45 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Kufar [io.qameta.allure:allure-maven:2.10.0:report].executor": "Run",
+    "Maven.Kufar [io.qameta.allure:allure-maven:2.10.0:serve].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.Tests.Test1.executor": "Run",
     "TestNG.Tests.Test_SuccessfulLoginUser.executor": "Run",
     "TestNG.Tests.Test_UnsuccessfulLoginUser.executor": "Run",
+    "TestNG.Tests.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/teste/IdeaProjects/Kufar",
+    "last_opened_file_path": "C:/Users/teste/IdeaProjects/Kufar/src/test/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Tests.Test_UnsuccessfulLoginUser">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\teste\IdeaProjects\Kufar\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Tests.Test_SuccessfulLoginUser">
+    <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Kufar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Kufar" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,8 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests.Test_UnsuccessfulLoginUser" />
         <item itemvalue="TestNG.Tests.Test_SuccessfulLoginUser" />
+        <item itemvalue="TestNG.Tests.Test_UnsuccessfulLoginUser" />
+        <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.Tests.Test1" />
       </list>
     </recent_temporary>
@@ -137,13 +159,22 @@
       <option name="project" value="LOCAL" />
       <updated>1713970893963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 tests added">
+      <option name="closed" value="true" />
+      <created>1714033965100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714033965100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating Project" />
     <MESSAGE value="Adding RestAssured, Lombok, Selenide, Selenium, TestNG dependencies" />
     <MESSAGE value="Classes Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes Added" />
+    <MESSAGE value="2 tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 tests added" />
   </component>
 </project>
