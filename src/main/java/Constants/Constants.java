@@ -9,6 +9,5 @@ public class Constants {
     public static class UserCredentials{
         public static final String USER_EMAIL = "sediuk.egor@gmail.com";
         public static final String USER_PASSWORD = "TestForKufar1";
-        public static final String USER_INCORRECT_PASSWORD = "QWERTY";
     }
 }

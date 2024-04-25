@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;
+import org.openqa.selenium.Keys;
 
 import java.time.Duration;
 
@@ -25,6 +26,11 @@ public class MainPage {
     private final SelenideElement accountIcon = $x("//div[@data-testid='user_profile_pic']");
     private final SelenideElement accountSettings = $x("//a[@data-testid='profile_menu_settings_link']");
     private final SelenideElement closeModalWindow = $x("//div[@class='styles_buttons__uir1j']//button");
+    private final SelenideElement NULL = $x("NULL");
+
+    public void invalid_test(){
+        NULL.click();
+    }
 
     /**
      * Method for accepting cookies
@@ -63,6 +69,4 @@ public class MainPage {
         accountSettings.shouldBe(Condition.visible).click();
         return new AccountPage();
     }
-
-
 }
